@@ -44,6 +44,9 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+a {
+	color: #383838;
+}
 .myName:hover {
 	color: #383838 !important;
 }
@@ -66,6 +69,33 @@ h1, h2, h3, h4, h5, h6 {
 
 .underlined {
 	border-bottom: 2px solid #bae1ff !important;
+}
+
+body {
+background-color: #FFFFFF;
+}
+.ui.menu .item img.logo {
+margin-right: 1.5em;
+}
+.main.container {
+margin-top: 7em;
+}
+.wireframe {
+margin-top: 2em;
+}
+.ui.footer.segment {
+margin: 5em 0em 0em;
+padding: 5em 0em;
+}
+
+.workLink {
+	background-position: -0% 0;
+	background-size: 200% auto;
+	text-decoration: none;
+	transition: background-position 0.5s ease-out;
+}
+.workLink:hover {
+	background-position: -99.99% 0;
 }
 
 /* IBIS */

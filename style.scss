@@ -75,12 +75,14 @@ a {
 /* IBIS */
 /* #fd5068 */
 .IBISWorld {
-	background-image: linear-gradient(to right, rgba(255,255,255,1) 50%, rgba(53,208,127,0.15) 50%);
-	color: rgba(53, 208, 127, 1.00);
-}
-.IBISWorld:hover {
-	color: rgba(53, 208, 127, 1.00);
-}
+      color: #0090B2;
+      &:hover {
+        color: #FF7A00;
+      }
+      &:active {
+        color: #B25500;
+      }
+    }
 /* WMA */
 /* #fd5068 */
 .WMA {
@@ -99,7 +101,7 @@ a {
 .UBS:hover {
 	color: rgba(250, 190, 0, 1);
 }
-/* NASA */
+/* OCE */
 /* #15418c */
 .OCE {
 	background-image: linear-gradient(to right, rgba(255,255,255,1) 50%, rgba(21, 65, 140, 0.15) 50%);

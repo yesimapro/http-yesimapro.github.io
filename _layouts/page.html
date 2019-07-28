@@ -5,6 +5,31 @@ layout: default
 <article class="page">
 
   <h1>{{ page.title }}</h1>
+  <head>
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+    <!-- JS -->
+    <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
+    <script
+      src="https://code.jquery.com/jquery-3.1.1.min.js"
+      integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+      crossorigin="anonymous"></script>
+    <script src="semantic/dist/semantic.min.js"></script>
+
+  <!-- Emojis -->
+  <!-- Android style -->
+  <!-- <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet"> -->
+  <!-- Apple style -->
+  <link rel='stylesheet' href='https://unpkg.com/emoji.css/dist/emoji.min.css'>
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="static/img/verified.ico"/>
+  <link rel='stylesheet' href='static/css/style.css'>
+  </head>
 
   <div class="entry">
     {{ content }}
